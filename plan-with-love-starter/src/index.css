@@ -8,12 +8,16 @@
 
 body{
     min-height: 100vh;
-    font-family: "Poppins", sans-serif;
-    background:linear-gradient(90deg, rgba(239, 239, 242, 1) 0%, rgba(156, 39, 176, 1) 0%, rgba(157, 165, 215, 1) 0%, rgba(252, 252, 252, 1) 49%, rgba(0, 188, 212, 1) 100%, rgba(255, 255, 255, 1) 100%);
-
+    font-family: "Poppins", sans-serif; 
+    
 }
 
 .container{
+    background-image: url('background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:#000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,6 +45,7 @@ body{
 
 .card{
     width:400px;
+    background-color: white ;
     height:max-content;
     margin:1rem;
     padding:1rem;
